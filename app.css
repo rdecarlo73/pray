@@ -1,0 +1,41 @@
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+	body{
+		background: url('img/pipes@2x.png');
+	}
+
+	input.pray-button {
+	    height: 300px;
+	    width: 300px;
+	    border-radius: 300px;
+	    border: 0px;
+		position:absolute;
+		left: 175px;
+		top:110px;
+		background: url('img/pray_button_up@2x.png');
+	}
+
+	input.pray-button:active {
+		background: url('img/pray_button_down@2x.png');
+	}
+}
+
+@media only screen {
+	body{
+		background: url('img/pipes.png');
+	}
+
+	a.pray-button {
+	    height: 150px;
+	    width: 150px;
+	    border-radius: 150px;
+	    border: 0px;
+		position:absolute;
+		left: 88px;
+		top:55px;
+		background: url('img/pray_button_up.png');
+	}
+
+	a.pray-button:active {
+		background: url('img/pray_button_down.png');
+	}
+}
