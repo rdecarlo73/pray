@@ -1,0 +1,16 @@
+{
+  "name": "pray",
+  "scripts": {
+  },
+  "env": {
+    "PATH": {
+      "required": true
+    }
+  },
+  "addons": [
+    "mongolab"
+  ],
+  "buildpacks": [
+
+  ]
+}
